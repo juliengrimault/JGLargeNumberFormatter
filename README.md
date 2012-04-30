@@ -6,14 +6,15 @@ NSNumberFormatter subclass that allows formatting of large number using an abbre
 Usage
 =====
 	JGLargeNumberFormatter* formatter = [[JGLargeNumberFormatter alloc] init];
-  formatter.billionsAbreviation = @"B";
-  formatter.millionsAbreviation = @"M";
-  formatter.thousandsAbreviation = @"K";
+	formatter.numberStyle = NSNumberFormatterDecimalStyle;
+	formatter.billionsAbreviation = @"B";
+	formatter.millionsAbreviation = @"M";
+	formatter.thousandsAbreviation = @"K";
+	
+	NSUInteger someBillions = 3670000000;
+	NSUInteger someMillions = 70400000;
+	NSUInteger someThousands = 3100;
   
-  NSInteger someBillions = 3670000000;
-  NSInteger someMillions = 70400000;
-  NSInteger someThousands = 3100;
-  
-  self.billionsLabel.text = [formatter stringFromNumber:[NSNumber numberWithInteger:someBillions]];
-  self.millionsLabel.text = [formatter stringFromNumber:[NSNumber numberWithInteger:someMillions]];
-  self.thousandsLabel.text = [formatter stringFromNumber:[NSNumber numberWithInteger:someThousands]];
+	self.billionsLabel.text = [formatter stringFromNumber:[NSNumber numberWithUnsignedInteger:someBillions]];
+	self.millionsLabel.text = [formatter stringFromNumber:[NSNumber numberWithUnsignedInteger:someMillions]];
+	self.thousandsLabel.text = [formatter stringFromNumber:[NSNumber numberWithUnsignedInteger:someThousands]];
