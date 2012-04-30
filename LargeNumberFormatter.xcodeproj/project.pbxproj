@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F98E91DC154E5CBE00139C20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98E91DB154E5CBE00139C20 /* UIKit.framework */; };
+		F98E91DE154E5CBE00139C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98E91DD154E5CBE00139C20 /* Foundation.framework */; };
+		F98E91E0154E5CBE00139C20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98E91DF154E5CBE00139C20 /* CoreGraphics.framework */; };
+		F98E91E6154E5CBF00139C20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F98E91E4154E5CBF00139C20 /* InfoPlist.strings */; };
+		F98E91E8154E5CBF00139C20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E91E7154E5CBF00139C20 /* main.m */; };
+		F98E91EC154E5CBF00139C20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E91EB154E5CBF00139C20 /* AppDelegate.m */; };
+		F98E91EF154E5CBF00139C20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E91EE154E5CBF00139C20 /* ViewController.m */; };
+		F98E91F2154E5CBF00139C20 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98E91F0154E5CBF00139C20 /* ViewController.xib */; };
+		F98E9205154E5D5300139C20 /* JGLargeNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E9204154E5D5300139C20 /* JGLargeNumberFormatter.m */; };
+		F98E9208154E5E8800139C20 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F98E9207154E5E8800139C20 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F98E91D7154E5CBE00139C20 /* LargeNumberFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeNumberFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98E91DB154E5CBE00139C20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F98E91DD154E5CBE00139C20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F98E91DF154E5CBE00139C20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F98E91E3154E5CBF00139C20 /* LargeNumberFormatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LargeNumberFormatter-Info.plist"; sourceTree = "<group>"; };
+		F98E91E5154E5CBF00139C20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F98E91E7154E5CBF00139C20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F98E91E9154E5CBF00139C20 /* LargeNumberFormatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LargeNumberFormatter-Prefix.pch"; sourceTree = "<group>"; };
+		F98E91EA154E5CBF00139C20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F98E91EB154E5CBF00139C20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F98E91ED154E5CBF00139C20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F98E91EE154E5CBF00139C20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F98E91F1154E5CBF00139C20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F98E9203154E5D5300139C20 /* JGLargeNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGLargeNumberFormatter.h; sourceTree = "<group>"; };
+		F98E9204154E5D5300139C20 /* JGLargeNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGLargeNumberFormatter.m; sourceTree = "<group>"; };
+		F98E9207154E5E8800139C20 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F98E91D4154E5CBE00139C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98E91DC154E5CBE00139C20 /* UIKit.framework in Frameworks */,
+				F98E91DE154E5CBE00139C20 /* Foundation.framework in Frameworks */,
+				F98E91E0154E5CBE00139C20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F98E91CC154E5CBE00139C20 = {
+			isa = PBXGroup;
+			children = (
+				F98E9207154E5E8800139C20 /* LICENSE */,
+				F98E9202154E5D5300139C20 /* JGLargeNumberFormatter */,
+				F98E91E1154E5CBE00139C20 /* LargeNumberFormatter */,
+				F98E91DA154E5CBE00139C20 /* Frameworks */,
+				F98E91D8154E5CBE00139C20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F98E91D8154E5CBE00139C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F98E91D7154E5CBE00139C20 /* LargeNumberFormatter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F98E91DA154E5CBE00139C20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F98E91DB154E5CBE00139C20 /* UIKit.framework */,
+				F98E91DD154E5CBE00139C20 /* Foundation.framework */,
+				F98E91DF154E5CBE00139C20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F98E91E1154E5CBE00139C20 /* LargeNumberFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				F98E91EA154E5CBF00139C20 /* AppDelegate.h */,
+				F98E91EB154E5CBF00139C20 /* AppDelegate.m */,
+				F98E91ED154E5CBF00139C20 /* ViewController.h */,
+				F98E91EE154E5CBF00139C20 /* ViewController.m */,
+				F98E91F0154E5CBF00139C20 /* ViewController.xib */,
+				F98E91E2154E5CBF00139C20 /* Supporting Files */,
+			);
+			path = LargeNumberFormatter;
+			sourceTree = "<group>";
+		};
+		F98E91E2154E5CBF00139C20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F98E91E3154E5CBF00139C20 /* LargeNumberFormatter-Info.plist */,
+				F98E91E4154E5CBF00139C20 /* InfoPlist.strings */,
+				F98E91E7154E5CBF00139C20 /* main.m */,
+				F98E91E9154E5CBF00139C20 /* LargeNumberFormatter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F98E9202154E5D5300139C20 /* JGLargeNumberFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				F98E9203154E5D5300139C20 /* JGLargeNumberFormatter.h */,
+				F98E9204154E5D5300139C20 /* JGLargeNumberFormatter.m */,
+			);
+			path = JGLargeNumberFormatter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F98E91D6154E5CBE00139C20 /* LargeNumberFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98E91F5154E5CBF00139C20 /* Build configuration list for PBXNativeTarget "LargeNumberFormatter" */;
+			buildPhases = (
+				F98E91D3154E5CBE00139C20 /* Sources */,
+				F98E91D4154E5CBE00139C20 /* Frameworks */,
+				F98E91D5154E5CBE00139C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LargeNumberFormatter;
+			productName = LargeNumberFormatter;
+			productReference = F98E91D7154E5CBE00139C20 /* LargeNumberFormatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F98E91CE154E5CBE00139C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "julien.grimault@me.com";
+			};
+			buildConfigurationList = F98E91D1154E5CBE00139C20 /* Build configuration list for PBXProject "LargeNumberFormatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F98E91CC154E5CBE00139C20;
+			productRefGroup = F98E91D8154E5CBE00139C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F98E91D6154E5CBE00139C20 /* LargeNumberFormatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F98E91D5154E5CBE00139C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98E91E6154E5CBF00139C20 /* InfoPlist.strings in Resources */,
+				F98E91F2154E5CBF00139C20 /* ViewController.xib in Resources */,
+				F98E9208154E5E8800139C20 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F98E91D3154E5CBE00139C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98E91E8154E5CBF00139C20 /* main.m in Sources */,
+				F98E91EC154E5CBF00139C20 /* AppDelegate.m in Sources */,
+				F98E91EF154E5CBF00139C20 /* ViewController.m in Sources */,
+				F98E9205154E5D5300139C20 /* JGLargeNumberFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F98E91E4154E5CBF00139C20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98E91E5154E5CBF00139C20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F98E91F0154E5CBF00139C20 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98E91F1154E5CBF00139C20 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F98E91F3154E5CBF00139C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F98E91F4154E5CBF00139C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F98E91F6154E5CBF00139C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargeNumberFormatter/LargeNumberFormatter-Prefix.pch";
+				INFOPLIST_FILE = "LargeNumberFormatter/LargeNumberFormatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F98E91F7154E5CBF00139C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargeNumberFormatter/LargeNumberFormatter-Prefix.pch";
+				INFOPLIST_FILE = "LargeNumberFormatter/LargeNumberFormatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F98E91D1154E5CBE00139C20 /* Build configuration list for PBXProject "LargeNumberFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98E91F3154E5CBF00139C20 /* Debug */,
+				F98E91F4154E5CBF00139C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98E91F5154E5CBF00139C20 /* Build configuration list for PBXNativeTarget "LargeNumberFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98E91F6154E5CBF00139C20 /* Debug */,
+				F98E91F7154E5CBF00139C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F98E91CE154E5CBE00139C20 /* Project object */;
+}
