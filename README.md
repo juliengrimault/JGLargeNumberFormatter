@@ -7,9 +7,9 @@ Usage
 =====
 	JGLargeNumberFormatter* formatter = [[JGLargeNumberFormatter alloc] init];
 	formatter.numberStyle = NSNumberFormatterDecimalStyle;
-	formatter.billionsAbreviation = @"B";
-	formatter.millionsAbreviation = @"M";
-	formatter.thousandsAbreviation = @"K";
+	formatter.billionsAbbreviation = @"B";
+	formatter.millionsAbbreviation = @"M";
+	formatter.thousandsAbbreviation = @"K";
 	
 	NSUInteger someBillions = 3670000000;
 	NSUInteger someMillions = 70400000;
